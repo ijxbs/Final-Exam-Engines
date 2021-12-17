@@ -10,7 +10,7 @@ public class ChangeMatCol : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            myMat.color = Color.green;
+            myMat.color = Color.red;
         }
     }
     private void OnTriggerExit(Collider other)
